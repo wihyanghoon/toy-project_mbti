@@ -63,7 +63,7 @@ body {
 
 #qna h1 {
     text-align: left;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 48px;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 #qna button {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
     border: none;
     background-color: #f2f2f2;
@@ -104,7 +104,7 @@ body {
     border-radius: 5px;
 }
 
-#result{
+#result {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@ body {
     box-shadow: 8px 8px 11px #d7d7d7;
 }
 
-#result > .container {
+#result>.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,15 +123,16 @@ body {
     box-sizing: border-box;
 }
 
-#result h1, h2{
+#result h1,
+h2 {
     text-align: center;
 }
 
 #result p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     color: #666666;
-    margin-top:20px;
+    margin-top: 20px;
     max-width: 520px;
 }
 
@@ -164,4 +165,11 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    #qna h1 {
+        font-size: 1.3rem;
+        line-height: 1.5em;
+    }
 }
