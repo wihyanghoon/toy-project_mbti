@@ -7,6 +7,7 @@ const result = document.querySelector("#result")
 const resultName = document.querySelector(".result_name")
 const imgBox = document.querySelector(".result_img")
 const desc = document.querySelector(".result_desc")
+const body = document.getElementsByTagName("body")
 
 let endPoint = 12
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0]
@@ -76,11 +77,12 @@ function setResult() {
 }
 
 function goResult() {
+    body[0].style.height = "auto";
     qna.style.display = "none";
     result.style.display = "flex";
     setResult();
 }
 
-function reFrash() {
-    location.href = 'https://wihyanghoon.github.io/toy-project_mbti/'
+function reStart() {
+    window.location.href = 'https://wihyanghoon.github.io/toy-project_mbti/'
 }
