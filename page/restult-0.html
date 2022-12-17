@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>재벌집 막내아들 - 만약에 내가 환생한다면 누구로?</title>
+</head>
+
+<body>
+    <section id="result">
+        <div class="container">
+            <h1>나의 환생은?</h1>
+            <h2 class="result_name">
+                연애 뭐 식은 죽 먹기죠, 연애 재능 만땅 <쥐>
+            </h2>
+            <div class="result_img">
+                <img src="../img//img-1.jpeg" alt="">
+            </div>
+            <p class="result_desc">
+                연애의 프로재능러인 당신! 쥐에 해당하는 당신은 연애의 모든 것들을 알고 있어,
+                쉽게 연애에 성공하는 스타일이랍니다.
+                주로 포부가 크고 성격이 낙천적인 성향을 가지고 있고,
+                논리적이면서 두뇌회전이 매우 빠르다고 할 수 있어요.
+                말재주 또한 좋아 사교성이 좋고 유쾌하지만 화려한 것을 좋아해
+                허영심을 부리거나 사치를 부리기 때문에 이 점들을 주의해야 돼요.
+                뛰어난 능력에 자만하는 경우도 종종 있기 때문에 겸손이 필요하답니다!
+            </p>
+            <div class="btn_wrap">
+                <button onclick="reFrash()">시작하기</button>
+            </div>
+        </div>
+    </section>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('d6f8d49442f2ecc5581a7dc25a69cf90');
+        Kakao.isInitialized();
+
+        function reFrash(){
+            location.href = '/index.html'
+        }
+    </script>
+    <script src="js/data.js"></script>
+    <script src="js/start.js"></script>
+    <script src="js/share.js"></script>
+</body>
+
+</html>

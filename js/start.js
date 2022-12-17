@@ -79,7 +79,3 @@ function goResult() {
     result.style.display = "block";
     setResult();
 }
-
-function reFrash() {
-    location.reload();
-}
