@@ -80,3 +80,7 @@ function goResult() {
     result.style.display = "flex";
     setResult();
 }
+
+function reFrash() {
+    location.href = 'https://wihyanghoon.github.io/toy-project_mbti/'
+}
