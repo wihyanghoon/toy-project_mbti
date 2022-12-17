@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <title>재벌집 막내아들 - 만약에 내가 환생한다면 누구로?</title>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('d6f8d49442f2ecc5581a7dc25a69cf90');
+        Kakao.isInitialized();
+    </script>
 </head>
 
 <body>
@@ -39,13 +44,14 @@
             <div class="result_img"></div>
             <p class="result_desc"></p>
             <div class="btn_wrap">
-                <button>공유하기</button>
+                <button onclick="kakaoShare()">공유하기</button>
                 <button onclick="reFrash()">다시하기</button>
             </div>
         </div>
     </section>
     <script src="js/data.js"></script>
     <script src="js/start.js"></script>
+    <script src="js/share.js"></script>
 </body>
 
 </html>

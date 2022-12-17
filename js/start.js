@@ -32,6 +32,8 @@ function goNext(index) {
             addAnser(qnaList[index].a[i].answer, index, i)
         }
         status.style.width = (100 / endPoint) * (index + 1) + "%"
+        console.log(index)
+        console.log(select)
     }
 }
 
