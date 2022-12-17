@@ -68,6 +68,7 @@ function setResult() {
     let resultImg = document.createElement('img')
     let imgURL = `img/img-${point}.jpeg`
     resultImg.src = imgURL
+    resultImg.alt = point
 
     imgBox.appendChild(resultImg)
 
@@ -76,6 +77,6 @@ function setResult() {
 
 function goResult() {
     qna.style.display = "none";
-    result.style.display = "block";
+    result.style.display = "flex";
     setResult();
 }
