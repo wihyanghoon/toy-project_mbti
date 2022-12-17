@@ -20,7 +20,7 @@ function setShare() {
         },
         buttons: [
             {
-                title: '참여하기',
+                title: '테스트 시작하기',
                 link: {
                     mobileWebUrl: shareURL,
                     webUrl: shareURL,
