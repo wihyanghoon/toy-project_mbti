@@ -4,7 +4,7 @@ function setShare(){
     var resultImg = document.querySelector('.result_img');
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '십이간지 연애유형 결과';
-    const shareDes = infoList[resultAlt].name;
+    const shareDes = infoList[0].name;
     const shareImage = url + 'img/image-' + resultAlt + '.jpeg';
     const shareURL = url + 'page/result-' + resultAlt + '.html';
   
