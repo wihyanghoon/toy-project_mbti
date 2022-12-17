@@ -1,3 +1,5 @@
+const url = 'https://wihyanghoon.github.io/toy-project_mbti/'
+
 function setShare(){
     var resultImg = document.querySelector('.result_img');
     var resultAlt = resultImg.firstElementChild.alt;
