@@ -77,7 +77,6 @@ function setResult() {
 }
 
 function goResult() {
-    body[0].style.height = "auto";
     qna.style.display = "none";
     result.style.display = "flex";
     setResult();
